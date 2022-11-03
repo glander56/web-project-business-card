@@ -1,0 +1,11 @@
+.button {
+    border-radius: 4px;
+    background: #FFB5A7;
+}
+
+.title-btn {
+    color: #FFFFFF;
+    font-family: "DM Sans";
+    letter-spacing: 0.18000000715255737px;
+    text-align: center;    
+}
