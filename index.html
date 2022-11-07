@@ -5,48 +5,53 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="blocks/container/container.css">
-    <link rel="stylesheet" href="blocks/header/header.css">
-    <link rel="stylesheet" href="blocks/button/button.css">
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans&family=Quicksand:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans&family=Quicksand:wght@300;400&display=swap"
+        rel="stylesheet">
 
     <title>No name yet</title>
 </head>
 
 <body>
     <header class="header">
-        <div class="container">
-            <div class="header__top">
-                <div class="logo">
-                    <a class="logo__link" href="#">
-                        <img class="logo__img" src="" alt="logo-img">
+        <div class="header__top">
+            <div class="header__top-icons">
+                <div class="icon-menu">
+                    <a class="icon-menu__figure" href="#">
+                        <div class="icon-menu__figure-path"></div>
+                        <div class="icon-menu__figure-path"></div>
+                        <div class="icon-menu__figure-path"></div>
                     </a>
                 </div>
-                <div class="icon-menu">
-                    <div class="icon-menu__figure">
-                        <div class="icon-menu__path-figure"></div>
-                        <div class="icon-menu__path-figure"></div>
-                        <div class="icon-menu__path-figure"></div>
-                    </div>
-                </div>
-                <button class="login-btn button">
-                    <p class="login-btn__title title-btn">Client Login</p>
-                </button>
-                <div class="purchases">
-                    <div class="purchases__inner">
-                        <div class="purchases__icon"></div>
-                        <div class="purchases__counter"></div>
-                    </div>
+                <div class="logo">
+                    <a class="logo__link" href="#">
+                        <img class="logo__link-img" src="images/logo.png" alt="logo-img">
+                    </a>
                 </div>
             </div>
+
+            <div class="header__top-display">
+                <img class="purchases-icon" src="images/purchase.png" alt="purchases-icon"></img>
+                <div class="purchases-counter">
+                    0
+                </div>
+                <a class="btn" href="#">
+                    <p class="btn-title">Client Login</p>
+                </a>
+            </div>
+
+        </div>
+        <div class="container">
+
             <div class="header__content">
-                <h1 class="header__content-title">Welcome to NoWeddingYet</h1>
-                <p class="header__content-description">NoWeddingYet is a perfect portfolio Webflow Template for
-                    wedding photographers, event planners, floral designers or anyone who needs to create a
-                    photo-centric website to help sell their services.</p>
-                <button class="preview-btn button">
-                    <div class="preview-btn__title title-btn">Preview Pages</div>
+                <div class="block">
+                    <h1 class="block__title">Welcome to NoWeddingYet</h1>
+                    <p class="block__desc">NoWeddingYet is a perfect portfolio Webflow Template for
+                        wedding photographers, event planners, floral designers or anyone who needs to create a
+                        photo-centric website to help sell their services.</p>
+                </div>
+                <button class="btn">
+                    <div class="btn-title">Preview Pages</div>
                 </button>
             </div>
         </div>
