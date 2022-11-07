@@ -1,0 +1,23 @@
+.block {
+    min-width: 700px;
+}
+
+.block__title {
+    font-family: 'DM Serif Display', serif;
+    font-size: 56px;
+    font-weight: 400;
+    line-height: 83px;
+    letter-spacing: 1.9199999570846558px;
+    text-align: center;
+    color: #1E212B;
+}
+
+.block__desc {
+    font-family: 'DM Sans';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+
+    color: #757575;
+}
