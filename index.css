@@ -4,9 +4,14 @@
 @import url(blocks/body/body.css);
 @import url(blocks/button/button.css);
 @import url(blocks/container/container.css);
+@import url(blocks/block/futures-block.css);
+@import url(blocks/container/futures-container.css);
+
 
 @import url(css/header/header.css);
 @import url(css/ex-maket/ex-maket.css);
+@import url(css/inclusion/inclusion.css);
+@import url(css/portfolio/portfolio.css);
 
 
 

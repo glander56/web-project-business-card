@@ -1,24 +1,22 @@
 .ex-maket {
-    height: 590px;
+    width: 100%;
+    margin-bottom: 100px;
 }
 .ex-maket__items {
     display: flex;
     flex-direction: column;
-    align-items: center;
 }
 .ex-maket__items-content {
     display: flex;
     justify-content: space-between;
 }
-.ex-maket__items-content:first-child{
-    padding-left: 0;
+
+.ex-maket__item {
+    padding: 11px 11px 11px;
 }
-.ex-maket__items-content:last-child{
+.ex-maket__item:last-child {
     padding-right: 0;
 }
-.ex-maket__item {
-    padding: 0 10px 10px;
-}
-.ex-maket__item-img {
-
+.ex-maket__item:first-child {
+    padding-left: 0;
 }

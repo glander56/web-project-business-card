@@ -1,5 +1,5 @@
 .block {
-    min-width: 700px;
+    max-width: 700px;
 }
 
 .block__title {
@@ -10,6 +10,20 @@
     letter-spacing: 1.9199999570846558px;
     text-align: center;
     color: #1E212B;
+}
+
+.small-title {
+    font-size: 48px;
+}
+
+.block__subtitle {
+    font-family: 'DM Sans';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 1.2599999904632568px;
+    text-align: center;
+    color: #B7BCCB;
 }
 
 .block__desc {

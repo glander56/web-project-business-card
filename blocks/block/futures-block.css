@@ -1,0 +1,19 @@
+.futures-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1360px;
+    margin: 0 auto;
+}
+
+.futures-block__content {
+    width: 550px;
+}
+
+.futures-block__content-text {
+    font-family: 'DM Sans';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #757575;
+}
